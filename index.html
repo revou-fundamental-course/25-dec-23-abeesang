@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS DOM</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <main>
+      <h2>Kalkulator Segitiga</h2>
+      <img src="https://www.math-only-math.com/images/perimeter-area-and-altitude-of-a-triangle.png">
+      <div class="form">
+        <input
+          type="number"
+          min="1"
+          id="tinggi"
+          placeholder="Masukkan nilai tinggi (h)"/>
+         <input 
+          type="number" 
+          min="1" 
+          id="alas" 
+          placeholder="Masukkan nilai a (alas)" />
+         <input
+          type="number"
+          min="1"
+          id="B"
+          placeholder="Masukkan nilai b"/>
+         <input
+          type="number"
+          min="1"
+          id="C"
+          placeholder="Masukkan nilai c"/>
+      </div>
+      <div class="button">
+        <button id="luas-segitiga">Hitung Luas Berdasarkan Nilai Tinggi dan Alas</button>
+        <button id="keliling-segitiga">Hitung Keliling Berdasarkan Nilai Tinggi dan Alas</button>
+        <button id="luas-segitiga-ABC">Hitung Luas Berdasarkan Nilai a, b, dan c</button>
+        <button id="keliling-segitiga-ABC">Hitung Keliling Berdasarkan Nilai a, b, dan c</button>
+      </div>
+      <p id="hasil-luas-segitiga">Luas:</p>
+      <p id="hasil-keliling-segitiga">Keliling:</p>
+    </main>
+    <main>
+    <script src="src/triangle.js"></script>
+  </main>
+</body>
+</html>
